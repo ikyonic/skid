@@ -1,13 +1,102 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>page3</ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">page3</ion-title>
-    </ion-toolbar>
-  </ion-header>
-</ion-content>
+
+
+
+<ion-content>
+
+
+
+
+
+  <div class="login-section ion-padding">
+
+      <ion-button width="100%" class="back" fill="clear" routerLink="/home">
+        <ion-icon style="text-align: center; font-size: 12px; margin-left: -15px; margin-bottom: 25px;" name="chevron-back"></ion-icon> <ion-title> </ion-title> 
+       
+        <b>  <ion-item style="text-align: center; font-size: 12px; margin-right: 100px; margin-bottom: 25px;">Add an item to list</ion-item></b>
+      
+      </ion-button>
+    
+  
+   
+    <div class="heading ion-padding">
+
+
+      
+      <h1>Confirm OTP</h1>
+      <p> A OTP has been sent to +639123456789</p>
+      <p>Kindly enter below the 6 digit code</p>
+    </div>
+    <div class="login-form ion-padding">
+      <div class="form-input">
+
+
+
+<div class="container" >
+  <ion-grid>
+  <ion-row class="row">
+
+    <ion-col>
+    <div class="col-md-3" style="width:38px; height: 38px;">
+      <ion-input type="number" #txt1 maxlength="1" (keyup)="move($event,'', txt1, txt2)"></ion-input> 
+    </div>
+  </ion-col>
+
+
+
+  <ion-col>
+    <div  class="col-md-3" style="width:38px; height: 38px;">
+      <ion-input type="number" #txt2 maxlength="1" (keyup)="move($event, txt1, txt2, txt3)"></ion-input> 
+    </div>
+  </ion-col>
+
+  <ion-col>
+    <div class="col-md-3" style="width:38px; height: 38px;">
+      <ion-input type="number" #txt3 maxlength="1" (keyup)="move($event, txt2, txt3, txt4)"></ion-input> 
+    </div>
+  </ion-col>
+
+
+  <ion-col>
+    <div class="col-md-3" style="width:38px; height: 38px;">
+      <ion-input type="number" #txt4 maxlength="1" (keyup)="move($event, txt3, txt4, '')"></ion-input> 
+    </div>
+  </ion-col>
+
+  <ion-col>
+    <div class="col-md-3" style="width:38px; height: 38px;">
+      <ion-input type="number" #txt5 maxlength="1" (keyup)="move($event, txt3, txt4, '')"></ion-input> 
+    </div>
+  </ion-col>
+
+
+  <ion-col>
+    <div class="col-md-3" style="width:  38px; height: 38px;">
+      <ion-input type="number" #txt6 maxlength="1" (keyup)="move($event, txt3, txt4, '')"></ion-input> 
+    </div>
+  </ion-col>
+
+
+
+
+  </ion-row>
+
+</ion-grid>
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <div class="action-button ion-padding">
+      <ion-button trigger="input" size="large" class="login-button" [routerLink]="['/page3']"
+        routerLinkActive="router-link-active">Enter</ion-button>
+      <ion-button [routerLink]="['/page1']" routerLinkActive="router-link-active">CANCEL</ion-button>
+    </div>
+  </div>
+    </div></div></ion-content>

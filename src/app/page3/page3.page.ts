@@ -12,4 +12,9 @@ export class Page3Page implements OnInit {
   ngOnInit() {
   }
 
+
+move(e:any, p:any, c:any, n:any){
+  // var length = 
+
+}
 }

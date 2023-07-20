@@ -2,24 +2,25 @@
   <div class="login-section ion-padding">
     <div class="heading ion-padding">
       <h1>Enter Phone Number</h1>
-    
+
     </div>
-   <div class="login-form ion-padding">
+    <div class="login-form ion-padding">
       <div class="form-input">
         <p>Mobile Number</p>
         <ion-icon name="call"></ion-icon>
         <ion-item>
-         
+
           <ion-label position="floating"></ion-label>
-          <ion-input label="+63 |"type="number" value="1234"></ion-input>
+          <ion-input label="+63 |" type="number" maxlength="9" value="1234"></ion-input>
         </ion-item>
       </div>
-  
-      </div>
 
-      <div class="action-button ion-padding">
-      <ion-button trigger="input" size="large" class="login-button" [routerLink]="['/page3']" routerLinkActive="router-link-active" >Enter</ion-button>
-      
+    </div>
+
+    <div class="action-button ion-padding">
+      <ion-button trigger="input" size="large" class="login-button" [routerLink]="['/page3']"
+        routerLinkActive="router-link-active">Enter</ion-button>
+      <ion-button [routerLink]="['/page1']" routerLinkActive="router-link-active">CANCEL</ion-button>
     </div>
   </div>
 </ion-content>

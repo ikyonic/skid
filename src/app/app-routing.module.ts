@@ -22,6 +22,10 @@ const routes: Routes = [
     path: 'page3',
     loadChildren: () => import('./page3/page3.module').then( m => m.Page3PageModule)
   },
+  {
+    path: 'page4',
+    loadChildren: () => import('./page4/page4.module').then( m => m.Page4PageModule)
+  },
 
 ];
 
