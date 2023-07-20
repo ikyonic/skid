@@ -1,39 +1,25 @@
 <ion-content>
-<div class="login-section ion-padding">
-  <div class="heading ion-padding">
-    <h1>welcome</h1>
-<p>sign</p>
-
-
-  </div>
-
-  <div class="login-form ion-padding">
-    <div class="form-input">
-      <ion-icon name="mail-outline"></ion-icon>
-      <ion-item>
-        <ion-label position="floating">email</ion-label>
-        <ion-input type="email"></ion-input>
-      </ion-item>
+  <div class="login-section ion-padding">
+    <div class="heading ion-padding">
+      <h1>Enter Phone Number</h1>
+    
     </div>
-
-    <div class="login-form ion-padding">
+   <div class="login-form ion-padding">
       <div class="form-input">
-        <ion-icon name="lock-closed-outline"></ion-icon>
+        <p>Mobile Number</p>
+        <ion-icon name="call"></ion-icon>
         <ion-item>
-          <ion-label position="floating">password</ion-label>
-          <ion-input type="password"></ion-input>
+         
+          <ion-label position="floating"></ion-label>
+          <ion-input label="+63 |"type="number" value="1234"></ion-input>
         </ion-item>
       </div>
+  
+      </div>
 
-
+      <div class="action-button ion-padding">
+      <ion-button trigger="input" size="large" class="login-button" [routerLink]="['/page3']" routerLinkActive="router-link-active" >Enter</ion-button>
+      
+    </div>
   </div>
-
-<div class="action-button ion-padding"></div>  
-<ion-button size="large" class="login-button">Login</ion-button>
-<p>Forgot Password?</p>
-<ion-button class ="signup-button" size="large" fill="outline" [routerLink]="['/routePath']" routerLinkActive="router-link-active" ></ion-button>
-</div>
-
-
-</div>
 </ion-content>

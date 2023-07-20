@@ -1,18 +1,76 @@
 ion-content{
     --background: linear-gradient(0deg,rgba(0,0,0,0.7), rgba(0,0,0,0.1)),
-    url("/assets/rider.png") no-repeat center center / cover;
+    url("/assets/rider.png") no-repeat center center /cover;
 
 }
 
 .login-section{
-    height: 50vh;
+    height: 100vh;
     width: 100%;
-    max-width: 500px;
+    max-width: 800px;
     background: #fff;
     right: 0;
     left: 0;
     bottom: 0;
-    margin:auto;
+    margin-top:100%;
     border-top-left-radius: 46px;
     border-top-right-radius: 46px;
+}
+
+
+
+
+.heading{
+    margin-top: 1px;
+    h1{
+        font-size: 1.6rem;
+        font-weight: bolder;
+    }
+   
+
+}
+.login-form{
+    
+    .form-input{
+        margin-left: 1px;
+        position: relative;
+        margin-bottom: 10px;
+        color: #7b7b7b;
+        ion-item:part(native){
+            padding: 0;
+        }
+        ion-icon{
+            position: absolute;
+            top: 65px;
+            z-index: 2;
+            font-size: 1.2rem;
+            left: 20px;
+            color: black;
+
+        }
+        ion-label{
+            position: absolute;
+            margin-left: 30px;
+            font-weight: bolder;
+            font-size: 0.8rem;
+            top: 3px;
+            background: rgba(244, 244, 244, 1);
+
+        }
+        ion-input{
+            font-size: 0.9rem;
+            --padding-start: 30px;
+            padding-left: 1px;
+            --padding-top:36px;
+            background: rgba(244, 244, 244, 1);
+            margin-left: 1px;
+            
+        }
+        p{ 
+            margin-top: 20px;
+            font-size: 1rem;
+            color: #7b7b7b;
+            margin-left: 1px;
+        }
+    }
 }

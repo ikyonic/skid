@@ -2,27 +2,19 @@
   <ion-header collapse="condense">
     
 
-    <img width="" height="" alt="dot" label="dot" class="dot"src="/assets/rider.png" />
+    <!-- <img width="" height="" alt="dot" label="dot" class="dot"src="/assets/rider.png" /> -->
   </ion-header>
-</ion-content>
-<ion-fab slot="fixed" vertical="bottom" horizontal="end">
-  <ion-fab-button id="open-action-sheet">
-    <ion-icon name="chevron-up-circle"></ion-icon>
-  </ion-fab-button>
-  <ion-fab-list side="top">
-    <ion-fab-button>
-      <ion-icon name="document"></ion-icon>
-    </ion-fab-button>
-    <ion-fab-button>
-      <ion-icon name="color-palette"></ion-icon>
-    </ion-fab-button>
-    <ion-fab-button>
-      <ion-icon name="globe"></ion-icon>
-    </ion-fab-button>
-  </ion-fab-list>
-</ion-fab>
 
-<ion-action-sheet trigger="open-action-sheet" header="Actions" [buttons]="actionSheetButtons">
+
+
+<div class="go">
+<ion-fab slot="fixed" vertical="bottom" horizontal="center">
+  <ion-fab-button id="open-action-sheet" [routerLink]="['/page2']" routerLinkActive="router-link-active" >
+    <ion-icon  name="chevron-forward-circle"></ion-icon>
+  </ion-fab-button>
+</ion-fab>
+</div>
+
 
  
-</ion-action-sheet>
+</ion-content>
