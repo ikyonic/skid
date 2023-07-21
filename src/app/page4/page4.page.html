@@ -1,35 +1,51 @@
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+<ion-content class="ion-no-border">
+  <ion-header class="ion-no-border">
  
-      <img src="/assets/icon2.png" style="width: 79px; display: block; margin: auto; margin-top:250px; ">
+      <img src="/assets/icon2.png" style="width: 79px; display: block; margin: auto; ">
       <h2 style="width: 139px; margin: auto;">Welcome to</h2>
       <h1 style="width: 139px; margin: auto; display: block;">SkiD</h1>
  
 
 
-      <ion-button>
-        <ion-icon slot="start" name="logo-google"></ion-icon>
-      Continue with Google
-      </ion-button>
+ 
 
   </ion-header>
 </ion-content>
 
-<!-- 
-  <ion-list> -->
-    <!-- <div > -->
-      <!-- <ion-item> -->
-        <!-- <p class="ion-text-center">Name</p> -->
-        <!-- <ion-label position="floating"></ion-label> -->
-        <!-- <ion-input class="name" style="margin-top: 10px; max-width: fit-content; display: block;  margin-left: 20px;"fill="outline"></ion-input> -->
-      <!-- </ion-item> -->
-    <!-- </div> -->
 
-    <!-- <div> -->
-      <!-- <ion-item> -->
-        <!-- <p>Email Address</p> -->
-        <!-- <ion-label position="floating"></ion-label> -->
-        <!-- <ion-input margin></ion-input> -->
-      <!-- </ion-item> -->
-    <!-- </div> -->
-  <!-- </ion-list> -->
+<ion-list> 
+    <div style="margin-bottom: 50px;">
+      <ion-item>
+        <p style="width: 139px; margin: auto;;">Name</p>
+        <ion-label position="floating"></ion-label>
+        <ion-input type="text" label="" placeholder="Enter First Name" style="margin-top: 10px;  margin:auto;"fill="outline"></ion-input>
+      </ion-item>
+    </div>
+
+    <div style="margin-bottom: 60px;">
+      <ion-item >
+        <p style="width: 139px; margin: auto;;">Email Address</p>
+        <ion-label position="floating"></ion-label>
+        <ion-input type="text" label="" placeholder="Provide a valid email address" style="margin-top: 10px;  margin:auto; margin-bottom: 50px;"fill="outline" ></ion-input>
+      </ion-item>
+    </div>
+
+    <ion-button style="display: block;">Continue</ion-button>
+
+    <img style="margin-top: 20px;" src="/assets/or.png">
+ 
+
+<div>
+  <div>
+
+
+
+
+  </div>
+</div>
+
+
+  <ion-button>
+    <ion-icon slot="start" name="logo-google"></ion-icon>
+  Continue with Google
+  </ion-button> </ion-list>
