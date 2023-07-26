@@ -61,11 +61,28 @@ ion-content{
             font-size: 0.9rem;
             --padding-start: 30px;
             padding-left: 1px;
-            --padding-top:36px;
+            --padding-top:10px;
+            --padding-bottom:10px;
             background: rgba(244, 244, 244, 1);
             margin-left: 1px;
+            border-bottom: solid 1px  rgb(84, 181, 65) !important;
+            border-bottom-style:inherit;
             
-        }
+        }  ion-icon{
+            margin-right: 10px;
+            margin-bottom: 100px;
+          }
+            
+            
+        
+ion-input.label{
+    margin-bottom: 100px;
+
+}
+
+
+
+
         p{ 
             margin-top: 20px;
             font-size: 1rem;
