@@ -1,13 +1,49 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>page6</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">page6</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div style="position:absolute; padding-top: 20px; padding-left:10px;" click [routerLink]="['/page5']">
+    <img src="/assets/Group 5.png">
+
+  </div>
+
+  <div style="margin-left: 300px; padding-top: 20px;" click [routerLink]="['/page5']">
+    <img src="/assets/Cancel.png">
+  </div>
+
+
+
+  <div style="padding-left: 20px; padding-right: 20px;  padding-top: 50px; height: 100%;">
+    <div>
+      <img src="/assets/provide.png">
+    </div>
+
+
+    <div>
+      <p>Height of Package</p>
+
+        <ion-icon  style="display: flex; margin-top: 5%;"> </ion-icon>
+        <ion-input ion-icon name="call-outline" label="+63 |" type="number" maxlength="9"></ion-input>
+
+
+    </div>
+
+    <div>
+      <p>Height of Package</p>
+
+        <ion-icon  style="display: flex; margin-top: 5%;"> </ion-icon>
+        <ion-input ion-icon name="call-outline"  type="number" maxlength="9"></ion-input>
+
+
+    </div>
+
+    <div>
+      <p>Height of Package</p>
+
+        <ion-icon > </ion-icon>
+        <ion-input  type="number" maxlength="9"></ion-input>
+
+
+    </div>
+
+
+    
+  </div>
 </ion-content>
