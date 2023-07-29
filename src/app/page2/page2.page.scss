@@ -1,45 +1,53 @@
-ion-content{
-    --background: linear-gradient(0deg,rgba(0,0,0,0.7), rgba(0,0,0,0.1)),
-    url("/assets/rider.png") no-repeat center center /cover;
+ion-content {
+    --background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+        url("/assets/rider.png") no-repeat center center /cover;
 
 }
 
-.login-section{
-    height: 85vh;
+.login-section {
+    height: 55%;
     width: 100%;
-    max-width: 800px;
+    max-width: 100%;
     background: #fff;
     right: 0;
-    left: 0;
+    left: 50%;
     bottom: 0;
-    margin-top:100%;
+    margin-top: 100%;
     border-top-left-radius: 46px;
     border-top-right-radius: 46px;
+    transform: translate(-0%, 0%);
+    align-items: center;
+    justify-content: center;
+
 }
 
 
 
 
-.heading{
+.heading {
     margin-top: 1px;
-    h1{
+
+    h1 {
         font-size: 1.6rem;
         font-weight: bolder;
     }
-   
+
 
 }
-.login-form{
-    
-    .form-input{
+
+.login-form {
+
+    .form-input {
         margin-left: 1px;
         position: relative;
         margin-bottom: 10px;
         color: #7b7b7b;
-        ion-item:part(native){
+
+        ion-item:part(native) {
             padding: 0;
         }
-        ion-icon{
+
+        ion-icon {
             position: absolute;
             top: 65px;
             z-index: 2;
@@ -48,7 +56,8 @@ ion-content{
             color: black;
 
         }
-        ion-label{
+
+        ion-label {
             position: absolute;
             margin-left: 30px;
             font-weight: bolder;
@@ -57,37 +66,44 @@ ion-content{
             background: rgba(244, 244, 244, 1);
 
         }
-        ion-input{
+
+        ion-input {
             font-size: 0.9rem;
             --padding-start: 30px;
             padding-left: 1px;
-            --padding-top:10px;
-            --padding-bottom:10px;
+            --padding-top: 10px;
+            --padding-bottom: 10px;
             background: rgba(244, 244, 244, 1);
             margin-left: 1px;
-            border-bottom: solid 1px  rgb(84, 181, 65) !important;
-            border-bottom-style:inherit;
-            
-        }  ion-icon{
+            border-bottom: solid 1px rgb(84, 181, 65) !important;
+            border-bottom-style: inherit;
+
+        }
+
+        ion-icon {
             margin-right: 10px;
             margin-bottom: 100px;
-          }
-            
-            
-        
-ion-input.label{
-    margin-bottom: 100px;
-
-}
+        }
 
 
 
+        ion-input.label {
+            margin-bottom: 100px;
 
-        p{ 
+        }
+
+
+
+
+        p {
             margin-top: 20px;
             font-size: 1rem;
             color: #7b7b7b;
             margin-left: 1px;
         }
     }
+
+
+
+ 
 }

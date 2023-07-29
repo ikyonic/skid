@@ -1,5 +1,5 @@
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+<ion-content>
+  <ion-header >
     
 
     <!-- <img width="" height="" alt="dot" label="dot" class="dot"src="/assets/rider.png" /> -->
@@ -8,12 +8,16 @@
 
 
 <div class="go">
-<ion-fab slot="fixed" vertical="bottom" horizontal="center">
-  <ion-fab-button id="open-action-sheet" [routerLink]="['/page2']" routerLinkActive="router-link-active" >
-    <ion-icon  name="chevron-forward-circle"></ion-icon>
-  </ion-fab-button>
-</ion-fab>
+
 </div>
+
+<div class="icon">
+  <ion-fab>
+    <ion-fab-button style="border-color: darkgreen; " color="success"id="open-action-sheet" [routerLink]="['/page2']" routerLinkActive="router-link-active" >
+      <ion-icon  name="arrow-forward-outline" ></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  </div>
 
 
  
