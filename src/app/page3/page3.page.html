@@ -10,16 +10,15 @@
 
   <div class="login-section ion-padding">
 
-      <ion-button width="100%" class="back" fill="clear" routerLink="/home">
-        <ion-icon style="text-align: center; font-size: 12px; margin-left: -15px; margin-bottom: 25px;" name="chevron-back"></ion-icon> <ion-title> </ion-title> 
-       
-        <b>  <p style="text-align: center; font-size: 12px; margin-right: 150px; margin-left: 20px; margin-bottom: 25px;">Change Phone Number</p></b>
-      
-      </ion-button>
+    <div style="position:absolute; padding-top: 20px; padding-left:10px;" click [routerLink]="['/page5']">
+      <img src="/assets/Group 6.png">
+  
+    </div>
+  
     
   
    
-    <div class="heading ion-padding">
+    <div class="heading ion-padding" style="margin-top: 10%;">
 
 
       
@@ -58,7 +57,7 @@
 
 
   <ion-col>
-    <div class="col-md-3" style="width:38px; height: 38px;">
+    <div class="col-md-3" style="width:38px; height: 38px; ">
       <ion-input type="number" #txt4 maxlength="1" (keyup)="move($event, txt3, txt4, '')"></ion-input> 
     </div>
   </ion-col>
