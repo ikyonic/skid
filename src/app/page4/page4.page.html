@@ -1,5 +1,6 @@
-<ion-content class="ion-no-border">
-  <ion-header class="ion-no-border">
+
+<ion-header class="ion-no-border">
+
 
     <img src="/assets/icon2.png" style="width: 79px; display: block; margin: auto; margin-top: 10%;">
 
@@ -9,47 +10,39 @@
 
 
 
-  </ion-header>
-</ion-content>
 
+</ion-header>
 
-<ion-list>
+<ion-header>
+
   <div style="margin-bottom:10%;">
 
-    <p style="width: 139px; margin: auto;;">Name</p>
+    <p style="text-align: center;">Name</p>
     <ion-label position="floating"></ion-label>
-    <ion-input type="text" label="" placeholder="Enter First Name" style="margin-top: 10px;  margin:auto;"
+    <ion-input style="text-align: center;" type="text" label="" placeholder="Enter First Name" style="margin-top: 10px;  margin:auto;"
       fill="outline"></ion-input>
 
   </div>
 
   <div style="margin-bottom: 40%;">
 
-    <p style="width: 139px; margin: auto;;">Email Address</p>
+    <p  style="text-align: center;">Email Address</p>
     <ion-label position="floating"></ion-label>
-    <ion-input type="text" label="" placeholder="Provide a valid email address"
-      style="margin-top: 20%;  margin:auto; margin-bottom: 10px;" fill="outline"></ion-input>
+    <ion-input   type="text" label="" placeholder="Provide a valid email address"
+      style="margin-top: 20%;  margin:auto; margin-bottom: 5px;" fill="outline"></ion-input>
 
-      <ion-button style="display: block; margin-top: 30%;" [routerLink]="['/page5']">Continue</ion-button>
-  </div>
+      <ion-button color="success" style="display: block; margin-top: 5%; margin-bottom: 10%;" [routerLink]="['/page5']">Continue</ion-button>
+
 
   <!-- <ion-button style="display: block;" [routerLink]="['/page5']">Continue</ion-button> -->
 
-  <img style="margin-top: 20px;" src="/assets/or.png">
+  <img style="margin-top: 2px;" src="/assets/or.png">
 
-
-  <div>
-    <div>
-
-
-
-
-    </div>
-  </div>
-
-
-  <ion-button style="display: block; margin: auto; ">
-    <ion-icon slot="start" name="logo-google"></ion-icon>
+  <ion-button style="display: block; margin-top: 5%; " class="google" fill="outline" color="dark">
+    <ion-icon color="dark" slot="start" name="logo-google"></ion-icon>
     Continue with Google
   </ion-button>
-</ion-list>
+
+
+</div>
+</ion-header>

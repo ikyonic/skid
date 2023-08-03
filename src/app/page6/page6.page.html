@@ -17,67 +17,91 @@
 
 
     <div>
-      <p>Height of Package</p>
+      <p style="text-align: center;">Height of Package</p>
 
+  
       <ion-list>
-        
+        <ion-item class="ion-no-border">
+          <ion-label>
+            Inches
+          </ion-label>
           <ion-select>
-           
-            <div slot="label">Inches</div>
-            <ion-select-option value="apples">Apples</ion-select-option>
-            <ion-select-option value="oranges">Oranges</ion-select-option>
-            <ion-select-option value="bananas">Bananas</ion-select-option>
+
+            <ion-select-option>2</ion-select-option>
+            <ion-select-option>4</ion-select-option>
+            <ion-select-option>6</ion-select-option>
+            <ion-select-option>8</ion-select-option>
+            <ion-select-option>10</ion-select-option>
+
           </ion-select>
-      
+
+        </ion-item>
       </ion-list>
     </div>
 
     <div>
-      <p>Width of Package</p>
-   
-             
-      <ion-item class="ion-no-border">
-        <ion-label>
-          Inches
-        </ion-label>
-      <ion-select>
+      <p style="text-align: center;">Width of Package</p>
 
-        <ion-select-option>2</ion-select-option>
-        <ion-select-option>4</ion-select-option>
-        <ion-select-option>6</ion-select-option>
-        <ion-select-option>8</ion-select-option>
-        <ion-select-option>10</ion-select-option>
-
-      </ion-select>
-      
-    </ion-item>
-
-    </div>
-
-    <div>
-      <p>Height of Package</p>
-
+      <ion-list placeholder="Height in Inches">
+        <ion-item class="ion-no-border">
+          <ion-label >
+            Inches
+          </ion-label>
           
-      <ion-item class="ion-no-border">
-        <ion-label>
-          Inches
-        </ion-label>
-      <ion-select>
+          <ion-select >
 
-        <ion-select-option>2</ion-select-option>
-        <ion-select-option>4</ion-select-option>
-        <ion-select-option>6</ion-select-option>
-        <ion-select-option>8</ion-select-option>
-        <ion-select-option>10</ion-select-option>
+            <ion-select-option>2</ion-select-option>
+            <ion-select-option>4</ion-select-option>
+            <ion-select-option>6</ion-select-option>
+            <ion-select-option>8</ion-select-option>
+            <ion-select-option>10</ion-select-option>
 
-      </ion-select>
-      
-    </ion-item>
+          </ion-select>
 
+        </ion-item>
+      </ion-list>
+    </div>
+<ion-row>
+    <div class="name" style="width:65%;">
+      <p>Weight of Package</p>
 
+      <ion-list>
+        <ion-item class="ion-no-border">
+          <ion-label>
+            Kg
+          </ion-label>
+          <ion-select>
+
+            <ion-select-option>2</ion-select-option>
+            <ion-select-option>4</ion-select-option>
+            <ion-select-option>6</ion-select-option>
+            <ion-select-option>8</ion-select-option>
+            <ion-select-option>10</ion-select-option>
+
+          </ion-select>
+
+        </ion-item>
+
+      </ion-list>
     </div>
 
+    <div style="margin-left:5%; width:25%; margin-top: 2%;">
 
+      <p style="text-align: center;">Quantity</p>
+      <ion-label position="floating"></ion-label>
+      <ion-input rows="4" cols="3" style="text-align: center;" type="text" label="" placeholder="Enter First Name"
+        style="margin-top: 10px;  margin:auto;" fill="outline"></ion-input> 
 
+    </div>
+  </ion-row> 
+
+  <ion-row style="margin-top: 6% ;">
+
+<p style="justify-content: center;"><B>Please note: </B>The driver will have a scale at hand to verify the weight of your package. If there is a difference in the weight of the package, it may affect the delivery cost</p>
+
+  </ion-row>
+  <ion-button color="success" style="display: block;" [routerLink]="['/page5']">Next</ion-button>
   </div>
+ 
+
 </ion-content>
