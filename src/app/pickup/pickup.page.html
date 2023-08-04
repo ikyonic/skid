@@ -1,11 +1,12 @@
-<ion-header class="ion-no-border">
-  <ion-buttons slot="start"> 
-   <ion-back-button text="" icon="caret-back-outline" defaultHref="home"> 
-    </ion-back-button>
-    <ion-text class="back" [routerLink]="['/package']">Back</ion-text>
-  </ion-buttons> 
+<ion-header class="ion-no-border" style="margin-bottom: 10%;">
+  <div style="position:absolute; padding-top: 20px; padding-left:10px;" click [routerLink]="['/page5']">
+    <img src="/assets/Group 5.png">
 
-  <p class="cancel">Cancel Order </p>
+  </div>
+
+  <div style="margin-left: 70%; padding-top: 20px;" click [routerLink]="['/package']">
+    <img src="/assets/Cancel.png">
+  </div>
 </ion-header>
 
 <ion-content padding class="background" fullscreen="false">
