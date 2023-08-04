@@ -35,7 +35,46 @@ const routes: Routes = [
     path: 'page6',
     loadChildren: () => import('./page6/page6.module').then( m => m.Page6PageModule)
   },
-
+  {
+    path: 'home-package',
+    loadChildren: () => import('./home-package/home.module').then( m => m.HomePageModule)
+  },
+  {
+    path: 'picture',
+    loadChildren: () => import('./picture/picture.module').then( m => m.PicturePageModule)
+  },
+  {
+    path: 'image',
+    loadChildren: () => import('./image/image.module').then( m => m.ImagePageModule)
+  },
+  {
+    path: 'package',
+    loadChildren: () => import('./package/package.module').then( m => m.PackagePageModule)
+  },
+  {
+    path: 'pickup',
+    loadChildren: () => import('./pickup/pickup.module').then( m => m.PickupPageModule)
+  },
+  {
+    path: 'vehicle',
+    loadChildren: () => import('./vehicle/vehicle.module').then( m => m.VehiclePageModule)
+  },
+  {
+    path: 'payment',
+    loadChildren: () => import('./payment/payment.module').then( m => m.PaymentPageModule)
+  },
+  {
+    path: 'rider',
+    loadChildren: () => import('./rider/rider.module').then( m => m.RiderPageModule)
+  },
+  {
+    path: 'route',
+    loadChildren: () => import('./route/route.module').then( m => m.RoutePageModule)
+  },
+  {
+    path: 'progress',
+    loadChildren: () => import('./progress/progress.module').then( m => m.ProgressPageModule)
+  },
 ];
 
 @NgModule({
