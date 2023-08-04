@@ -23,7 +23,7 @@
 
       
       <h1>Confirm OTP</h1>
-      <p> A OTP has been sent to <b color="success">+639123456789</b></p>
+      <p> A OTP has been sent to <b><span style="color: green;"> +4479123123456</span> </b>.</p>
       <p>Kindly enter below the 6 digit code</p>
     </div>
     <div class="login-form ion-padding">
@@ -37,7 +37,7 @@
 
     <ion-col>
     <div class="col-md-3" style="width:38px; height: 38px;">
-      <ion-input type="number" #txt1 maxlength="1" (keyup)="move($event,'', txt1, txt2)"></ion-input> 
+      <ion-input fill="outline" type="number" #txt1 maxlength="1" (keyup)="move($event,'', txt1, txt2)"></ion-input> 
     </div>
   </ion-col>
 
@@ -96,7 +96,7 @@
       <ion-button  class="login-button" [routerLink]="['/page4']"
         routerLinkActive="router-link-active">Enter</ion-button>
         
-      <ion-button [routerLink]="['/page2']" routerLinkActive="router-link-active">Cancel</ion-button>
+      <ion-button style="width: 33%;"[routerLink]="['/page2']" routerLinkActive="router-link-active">Cancel</ion-button>
     </div>
   </div>
     </div></div></ion-content>

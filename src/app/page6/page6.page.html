@@ -4,7 +4,7 @@
 
   </div>
 
-  <div style="margin-left: 300px; padding-top: 20px;" click [routerLink]="['/page5']">
+  <div style="margin-left: 70%; padding-top: 20px;" click [routerLink]="['/page5']">
     <img src="/assets/Cancel.png">
   </div>
 
@@ -16,7 +16,7 @@
     </div>
 
 
-    <div>
+    <div style="margin-bottom: 14%;">
       <p style="text-align: center;">Height of Package</p>
 
   
@@ -25,7 +25,7 @@
           <ion-label>
             Inches
           </ion-label>
-          <ion-select>
+          <ion-select placeholder="Height by Inches" style="text-align: right;">
 
             <ion-select-option>2</ion-select-option>
             <ion-select-option>4</ion-select-option>
@@ -39,16 +39,16 @@
       </ion-list>
     </div>
 
-    <div>
+    <div style="margin-bottom: 14%;">
       <p style="text-align: center;">Width of Package</p>
 
-      <ion-list placeholder="Height in Inches">
+      <ion-list >
         <ion-item class="ion-no-border">
           <ion-label >
             Inches
           </ion-label>
           
-          <ion-select >
+          <ion-select placeholder="Width by Inches" style="text-align: right;">
 
             <ion-select-option>2</ion-select-option>
             <ion-select-option>4</ion-select-option>
@@ -62,15 +62,15 @@
       </ion-list>
     </div>
 <ion-row>
-    <div class="name" style="width:65%;">
+    <div class="name" style="width:65%; margin-bottom: 10%;">
       <p>Weight of Package</p>
 
       <ion-list>
         <ion-item class="ion-no-border">
-          <ion-label>
+          <ion-label style="width: 30px;">
             Kg
           </ion-label>
-          <ion-select>
+          <ion-select placeholder="Weight">
 
             <ion-select-option>2</ion-select-option>
             <ion-select-option>4</ion-select-option>
@@ -89,8 +89,7 @@
 
       <p style="text-align: center;">Quantity</p>
       <ion-label position="floating"></ion-label>
-      <ion-input rows="4" cols="3" style="text-align: center;" type="text" label="" placeholder="Enter First Name"
-        style="margin-top: 10px;  margin:auto;" fill="outline"></ion-input> 
+      <ion-input rows="4" cols="3" style="text-align: center; fill: outline;" type="text"  ></ion-input> 
 
     </div>
   </ion-row> 
