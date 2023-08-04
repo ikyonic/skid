@@ -1,0 +1,97 @@
+
+ion-back-button {
+    padding-top: 50px;
+    padding-left:26px;
+    color: #079A4B;
+}
+
+.title {
+  color: #000000;
+  font-size: 24px;
+  position:relative;
+  top: 5px;
+  left: 15px;
+  width: 322;
+  height: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.back{
+  text-decoration: underline;
+  position:relative;
+  top: 40px;
+  left:-10px;
+  font-size: 16px;
+}
+
+
+.cancel {
+  font-size: 16px;
+  position: relative;
+  top: -12px;
+  bottom: 30px;
+  right: 25px;
+  left: 280px;
+  width: 100px;
+  height: 19px;
+  line-height: 19.17px;
+  font-weight: 700;
+  white-space: nowrap;
+  text-decoration: underline;
+}
+
+
+  ion-input{
+
+    border-bottom: solid 5px  rgb(84, 181, 65) !important;
+    border-bottom-style:inherit;
+    
+    --border-radius: 12px !important;
+    padding-left: 50px;
+    font-size: 0.9em;
+    position:relative;
+    left: 20px;
+    bottom: 10px;
+    
+  
+    border-bottom-width: 1px !important;
+    --background: rgb(244, 244, 244) !important;
+    
+    width: 362px;
+    height: 60px;
+
+    border: 1px;
+
+}
+
+.package {
+  position:relative;
+  left: 120px;
+  bottom: -18px;
+}
+
+.note {
+  position:relative;
+  left: 120px;
+  bottom: -125px;
+
+}
+
+.additional {
+  position: relative;
+  bottom: -65px;
+  height: 324px;
+}
+
+ion-button {
+  position: relative;
+  bottom: -180px;
+  left: 17px;
+  width: 367px;
+  height: 53px;
+  --background: #079A4B;
+  text-transform: none;
+  --border-radius: 8px;
+
+}

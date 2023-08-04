@@ -1,0 +1,79 @@
+ion-back-button {
+    padding-top: 50px;
+    padding-left:26px;
+    color: #079A4B;
+  }
+  
+  .back{
+    text-decoration: underline;
+    position:relative;
+    top: 40px;
+    left:-10px;
+    font-size: 16px;
+  }
+  
+  .cancel {
+    font-size: 16px;
+    position: relative;
+    top: -12px;
+    bottom: 30px;
+    right: 25px;
+    left: 280px;
+    width: 100px;
+    height: 19px;
+    line-height: 19.17px;
+    font-weight: 700;
+    white-space: nowrap;
+    text-decoration: underline;
+  }
+  
+  .map {
+    position:relative;
+    top: -10px;
+  }
+  
+  .vector {
+    position: relative;
+    bottom: 640px;
+    left: 30px;
+  }
+  
+  .radar {
+    position: relative;
+    bottom: 900px;
+    right: 20px;
+  }
+  
+  .rider {
+    position: relative;
+    bottom: 750px;
+    
+  }
+  
+  .bike-icon {
+    position: relative;
+    bottom: 1060px;
+    left:70px;
+  }
+  
+  .progress {
+    position: relative;
+    bottom: 870px;
+    left: 170px;
+    color: black;
+    --border-color: black;
+    text-transform: none;
+    font-weight: bold;
+    width: 123px;
+    height: 46px;
+    border: 1px;
+    --border-radius: 12px;
+  }
+  
+  .cncl {
+    position: relative;
+    bottom: 920px;
+    left: 20px;
+    text-decoration: underline;
+    color:#079A4B;
+  }

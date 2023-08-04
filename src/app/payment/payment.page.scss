@@ -1,0 +1,177 @@
+
+ion-back-button {
+    padding-top: 50px;
+    padding-left:26px;
+    color: #079A4B;
+}
+
+.title {
+  color: #1E1E1E;
+  font-size: 24px;
+  position:relative;
+  top: 5px;
+  left: 15px;
+  width: 322;
+  height: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.back{
+  text-decoration: underline;
+  position:relative;
+  top: 40px;
+  left:-10px;
+  font-size: 16px;
+}
+
+
+.cancel {
+  font-size: 16px;
+  position: relative;
+  top: -12px;
+  bottom: 30px;
+  right: 25px;
+  left: 280px;
+  width: 100px;
+  height: 19px;
+  line-height: 19.17px;
+  font-weight: 700;
+  white-space: nowrap;
+  text-decoration: underline;
+}
+
+
+.package {
+  position:relative;
+  left: 130px;
+  bottom: -18px;
+}
+
+ion-button {
+position: fixed;
+  top: 780px;
+  left: 17px;
+  width: 367px;
+  height: 53px;
+  --background: #079A4B;
+  text-transform: none;
+z-index: 30;
+--border-radius: 8px;
+}
+
+.payment{ 
+  position: relative;
+  bottom: -50px;
+
+}
+
+ion-content.background{
+  --background:url('/assets/image 3.png')
+
+}
+
+ion-segment {
+    position: relative;
+    bottom: 560px;
+    width: 350px;
+    left: 25px;
+    text-transform: none;
+}
+
+ion-datetime {
+    position: relative;
+    bottom: 540px;
+    width: 350px;
+    left: 25px;
+}
+
+
+.day {
+    position: relative;
+    bottom: 520px;
+    width: 350px;
+    left: 25px;
+    text-transform: none;
+}
+
+.vehicle {
+    position: relative;
+    top: -520px;
+    left: 10px;
+    gap: 16px;
+
+}
+
+.bike {
+    z-index: inherit;
+    position: relative;
+    bottom: 947px;
+    right: 357px;
+    --border-color: black;
+    --size: 15px;
+}
+
+.motor {
+    z-index: inherit;
+    position: relative;
+    bottom: 850px;
+    left: 25px;
+    --border-color: black;
+    --size: 15px;
+}
+
+
+ion-label {
+    text-transform: none;
+}
+
+.card{
+  
+  --border-radius: 10px;
+  --border-color: #54B541;
+  font-size: 0.9em;
+  position:relative;
+  left: 18px;
+  bottom: 510px;
+
+  
+  width: 362px;
+  height: 60px;
+
+}
+
+.expiry{
+    position: relative;
+    width: 115.53678131103516px;
+    height: 60px;
+    bottom: 450px;
+    left: 18px;
+
+    --border-radius:10px;
+
+
+}
+
+.cvv {
+  position: relative;
+  width: 115.53678131103516px;
+  height: 60px;
+  bottom: 510px;
+  left: 170px;
+
+  --border-radius:10px;
+}
+
+.paypal {
+  position: relative;
+  bottom: 470px;
+  left: 18px;
+}
+
+.cam{
+  position: relative;
+  bottom: 725px;
+  left: 235px;
+  z-index: 20;
+}

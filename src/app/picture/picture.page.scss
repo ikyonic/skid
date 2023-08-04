@@ -1,0 +1,159 @@
+
+ion-back-button {
+    padding-top: 50px;
+    padding-left:26px;
+    color: #079A4B;
+}
+
+.title {
+  color: #1E1E1E;
+  font-size: 24px;
+  position:relative;
+  top: 5px;
+  left: 5px;
+  width: 322;
+  height: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.back{
+  text-decoration: underline;
+  position:relative;
+  top: 40px;
+  left:-10px;
+  font-size: 16px;
+}
+
+
+.cancel {
+  font-size: 16px;
+  position: relative;
+  top: -12px;
+  bottom: 30px;
+  right: 25px;
+  left: 280px;
+  width: 100px;
+  height: 19px;
+  line-height: 19.17px;
+  font-weight: 700;
+  white-space: nowrap;
+  text-decoration: underline;
+}
+
+
+  ion-input{
+
+    border-bottom: solid 5px  rgb(84, 181, 65) !important;
+    border-bottom-style:inherit;
+    
+    --border-radius: 12px !important;
+    padding-left: 50px;
+    font-size: 0.9em;
+    position:relative;
+    left: 35px;
+    bottom: 10px;
+    
+  
+    border-bottom-width: 1px !important;
+    --background: rgb(244, 244, 244) !important;
+    
+    width: 362px;
+    height: 60px;
+
+    border: 1px;
+
+}
+
+.package {
+  position:relative;
+  left: 130px;
+  bottom: -18px;
+}
+
+.note {
+  position:relative;
+  left: 25px;
+  bottom: -3px;
+  font-weight: bold;
+  color: #2F313F;
+
+}
+
+.info {
+    position: relative;
+    left: 120px;
+    bottom: 30px;
+}
+.continue {
+    position: relative;
+    left: 25px;
+    bottom:40px;
+}
+
+.additional {
+  position: relative;
+  bottom: -65px;
+  height: 324px;
+}
+
+.object {
+  position: relative;
+  width: 357px;
+  height: 208px;
+  top: -5px;
+  left: 25px;
+  border-radius: 7.061728477478027px;
+
+
+
+}
+
+
+.parcel {
+    position: absolute;
+    top: 443px;
+    left: 255.85714721679688px;
+    z-index: 8;
+}
+
+.laptop {
+  position: relative;
+  left: 25px;
+  top: 15px;
+}
+
+.example {
+    position: fixed;
+    width: 91px;
+    height: 40px;
+    left: 40.5px;
+    top: 278px;
+    z-index: 3;
+}
+
+.example2 {
+    position: fixed;
+    left: 40.5px;
+    top: 518px;
+    z-index: 10;
+}
+
+.follow {
+    position: fixed;
+    top: 725px;
+    left: 42px;
+
+}
+
+ion-button {
+position: relative;
+  bottom: -120px;
+  left: 20px;
+  width: 362px;
+  height: 53px;
+  --background: #079A4B;
+  text-transform: none;
+z-index: 11;
+--border-radius: 8px;
+}

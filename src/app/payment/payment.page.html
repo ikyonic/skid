@@ -1,0 +1,29 @@
+<ion-header class="ion-no-border">
+  <ion-buttons slot="start"> 
+   <ion-back-button text="" icon="caret-back-outline" defaultHref="home"> 
+    </ion-back-button>
+    <ion-text class="back" [routerLink]="['/vehicle']">Back</ion-text>
+  </ion-buttons> 
+
+  <p class="cancel">Cancel Order </p>
+</ion-header>
+
+
+<ion-content padding class="background" fullscreen="false" background-repeat="no-repeat">
+
+  <img class="payment" src="../assets/payment.png">
+
+  <ion-input class="card" label-placement="floating" fill="solid" placeholder="Enter card number"></ion-input>
+
+  <ion-input class="expiry" label-placement="floating" fill="solid" placeholder="MM/YY"></ion-input>
+
+  <ion-input class="cvv" label-placement="floating" fill="solid" placeholder="CVV"></ion-input>
+
+  <img class="paypal" src="../assets/paypal.png">
+
+  <ion-button class="makepayment" fill="solid" [routerLink]="['/rider']" position="fixed" left="0" bottom="10px" z-index="25" right="0"> Make Payment </ion-button>
+
+  <img class="cam" src="../assets/cam.png">
+
+
+</ion-content>

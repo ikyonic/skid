@@ -1,0 +1,24 @@
+<ion-header class="ion-no-border">
+  <ion-buttons slot="start"> 
+   <ion-back-button text="" icon="caret-back-outline" defaultHref="home"> 
+    </ion-back-button>
+    <ion-text class="back" [routerLink]="['/pickup']">Back</ion-text>
+  </ion-buttons> 
+
+  <p class="cancel">Cancel Order </p>
+</ion-header>
+
+
+<ion-content padding class="background" fullscreen="false" background-repeat="no-repeat">
+  
+  <img class="frame" src="../assets/Frame-4.png">
+  <img class="vehicle" src="../assets/Frame 25.png">
+
+  <ion-checkbox class="bike" mode="ios"></ion-checkbox>
+  <ion-checkbox class="motor" mode="ios"></ion-checkbox>
+  <ion-checkbox class="car" mode="ios"></ion-checkbox>
+  <ion-checkbox class="van" mode="ios"></ion-checkbox>
+
+  <ion-button fill="solid" [routerLink]="['/payment']"> Submit</ion-button>
+
+</ion-content>

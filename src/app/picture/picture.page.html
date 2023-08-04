@@ -1,0 +1,26 @@
+<ion-header class="ion-no-border">
+  <ion-buttons slot="start"> 
+   <ion-back-button text="" icon="caret-back-outline" defaultHref="home"> 
+    </ion-back-button>
+    <ion-text class="back" routerLink="[/picture]">Back</ion-text>
+  </ion-buttons> 
+
+  <p class="cancel">Cancel Order </p>
+</ion-header>
+
+<ion-content fullscreen>
+  <ion-header collapse="condense" class="ion-no-border"> </ion-header>
+  <ion-title class="title" size="large">Take a picture of the item</ion-title>
+
+  <p class="note">Please note:</p>
+  <p class="info">Take picture of your parcel close to a</p>
+  <p class="continue"> recognisable object such as a chair, pen , etc.</p>
+
+
+  <img class="object" src="../assets/object1.png">
+  <img class="laptop" src="../assets/laptop1.png">
+  <img class="follow" src="../assets/Follow.png">
+  
+  <ion-button fill="solid" [routerLink]="['/image']"> <ion-icon size="large" name="camera-outline"></ion-icon>&nbsp; Take a Picture </ion-button>
+
+</ion-content>

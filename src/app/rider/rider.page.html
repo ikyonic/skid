@@ -1,0 +1,22 @@
+<ion-header class="ion-no-border">
+  <ion-buttons slot="start"> 
+   <ion-back-button text="" icon="caret-back-outline" defaultHref="home"> 
+    </ion-back-button>
+    <ion-text class="back" [routerLink]="['/payment']">Back</ion-text>
+  </ion-buttons> 
+
+  <p class="cancel">Cancel Order </p>
+</ion-header>
+
+<ion-content padding class="background" fullscreen="false" background-repeat="no-repeat">
+ 
+  <img class="rider" src="../assets/Group.png">
+  <img class="bikes" src="../assets/bikes.png">
+  <img class="bike-icon" src="../assets/bike-icon.png">
+  <img class="radar" src="../assets/radar.png">
+
+  <ion-button fill="outline" [routerLink]="['/route']"> View Progress </ion-button>
+
+  <p class="cncl">Cancel</p>
+  
+</ion-content>

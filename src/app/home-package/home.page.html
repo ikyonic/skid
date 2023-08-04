@@ -1,0 +1,29 @@
+<ion-header class="ion-no-border">
+    <ion-buttons slot="start"> 
+     <ion-back-button text="" icon="caret-back-outline" defaultHref="home"> 
+      </ion-back-button>
+      <ion-text class="back" routeLink="[/home]">Back</ion-text>
+    </ion-buttons> 
+
+    <p class="cancel">Cancel Order </p>
+    
+</ion-header>
+
+<ion-content fullscreen>
+  <ion-header collapse="condense" class="ion-no-border"> </ion-header>
+  <ion-title class="title" size="large">What is in the package?</ion-title>
+
+  <p class="package"> What is in the package?</p>
+  <p class="note">Additional Note(Optional)</p>
+  
+    
+
+  <ion-input label-placement="floating" fill="solid" placeholder="Enter text"></ion-input>
+  <ion-input class="additional" label-placement="floating" fill="solid" placeholder="Enter text"></ion-input>
+
+  <ion-button fill="solid" [routerLink]="['/picture']"> Next </ion-button>
+
+
+
+
+</ion-content>
